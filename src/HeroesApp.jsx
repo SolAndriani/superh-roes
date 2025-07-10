@@ -1,4 +1,4 @@
-// src/HeroesApp.jsx
+
 import { AppRouter } from "./router/AppRouter";
 import { AuthProvider } from "./auth";
 
