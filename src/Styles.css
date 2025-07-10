@@ -95,23 +95,23 @@
   gap: 1rem;
   padding: 1rem;
 }
+.hero-card .hero-name {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #333;
 
-/* Cada tarjeta de héroe */
-.hero-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #fff;
-  border-radius: 8px;
-  padding: 0.75rem;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  /* NUEVO: Mejora el corte de palabras */
+  white-space: normal;
+  word-break: break-word;
 }
-
-/* Imagen de héroe */
+.hero-card {
+  max-width: 280px;
+  margin: 0 auto;
+}
 .hero-card img {
   width: 100%;
-  height: auto;
-  border-radius: 4px;
+  max-height: 200px;
   object-fit: cover;
 }
 
